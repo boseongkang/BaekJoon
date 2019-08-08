@@ -1,5 +1,5 @@
 package If;
-
+ 
 import java.util.Scanner;
 
 public class q2884 {
