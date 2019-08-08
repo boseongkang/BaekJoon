@@ -1,7 +1,7 @@
 package step2;
  
 import java.util.Scanner;
-
+   
 public class q2884 {
 
 	public static void main(String[] args) {
