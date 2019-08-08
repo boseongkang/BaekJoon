@@ -1,4 +1,4 @@
-package If;
+package step2;
  
 import java.util.Scanner;
 
