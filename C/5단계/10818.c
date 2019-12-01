@@ -4,8 +4,8 @@ int main() {
 
 	int a, i;
 
-	int min = 10000001;
-	int max = -10000001;
+	int min = 1000001;
+	int max = -1000001;
 	int c = 0;
 
 	scanf_s("%d", &a);
