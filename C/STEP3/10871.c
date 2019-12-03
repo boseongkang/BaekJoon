@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main() {
+	int n, x, a;
+
+	scanf_s("%d %d", &n, &x);
+	for (int i = 0; i < n; i++) {
+		scanf_s("%d", &a);
+		if (x > a)
+			printf("%d\n", a);
+	}
+}
