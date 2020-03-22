@@ -4,3 +4,11 @@ Visual Studio 2019에서는 scanf함수가 먹히지 않아
 수행 안됨. 결국 scanf 를 scanf_s로 해주었다. 
 scanf_s 를 사용할땐 반드시 뒤에 &변수명 적어줄것.
 백준에 코드 제출할때는 scanf_s 를 scanf로 해주어야 한다.
+
+<hr>
+
+## scanf_s 대신 scanf
+
+사용하려면 
+
+`#pragma warning (disable:4996)` 이 문장을 `#include <stdio.h>` 와 같이 위에서 선언해주면 된다.
